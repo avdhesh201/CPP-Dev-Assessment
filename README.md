@@ -19,7 +19,7 @@ Time,Open,High,Low,Close,Volume,... (various other fields)
 
 **Requirements:**
 
-Data Structure:Define a class or struct named TradeData to store the following information from each line:
+Data Structure:Define a data structure to store the following information from each line:
 
 time (string): The time of the trade.
 
