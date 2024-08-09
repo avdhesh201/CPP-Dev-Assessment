@@ -6,8 +6,11 @@ Your task is to design a program that efficiently reads these files and updates 
 **Objective:**
 
 Create a program that:
+
 Efficiently Reads Trade Data: Reads and parses data from multiple text files within the TradeData folder.
+
 Updates Data Structure: Updates an internal data structure with the next available dataset from the files.
+
 Provides Access to Next Dataset: Implements a method to retrieve and update the internal data structure with the next dataset upon request.
 
 The text files in the TradeData folder contain lines formatted as follows:
@@ -36,4 +39,3 @@ File Reading:Implement a method to read and parse each text file line by line.En
 
 NextData Function:Implement a function named NextData() that:Loads the next dataset from the current file.
 
-Updates the TradeData structure with this dataset. Handles cases where no more datasets are available, including transitioning to the next file if needed.
